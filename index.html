@@ -4,60 +4,112 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aspose.ai Website Health</title>
+  <meta name="description" content="Operational health of Aspose.ai web properties.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230d2137'/%3E%3Cpath d='M8 20.5 13.2 10h5.6L24 20.5h-3.4l-1.1-2.3h-7l-1.1 2.3H8Zm5.7-4.8h4.6L16 11.4l-2.3 4.3Z' fill='%236ec8d4'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <div>
-      <p class="eyebrow">Leadership dashboard</p>
-      <h1>Aspose.ai Website Health</h1>
-    </div>
-    <div class="topbar-meta">
-      <span id="generated-at">Loading…</span>
-      <button id="refresh-btn" type="button">Refresh</button>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="brand">
+        <span class="mark" aria-hidden="true">A</span>
+        <div>
+          <p class="eyebrow">Aspose.ai · Operations</p>
+          <h1>Website Health</h1>
+        </div>
+      </div>
+      <div class="masthead-meta">
+        <div>
+          <p class="meta-label">Last updated</p>
+          <p id="generated-at">Loading…</p>
+        </div>
+        <button id="refresh-btn" type="button">Refresh</button>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="hero" id="hero">
-      <div class="score-card" id="score-card">
-        <p class="muted">Overall health</p>
-        <p class="score" id="overall-score">–</p>
-        <p class="status-pill" id="overall-status">unknown</p>
+      <article class="score-panel" id="score-card">
+        <p class="meta-label">Overall health score</p>
+        <div class="score-row">
+          <p class="score" id="overall-score">–</p>
+          <p class="status-pill" id="overall-status">unknown</p>
+        </div>
         <p id="overall-label" class="lead">Collecting the latest monitoring results.</p>
-      </div>
+      </article>
       <div class="severity-grid" id="severity-grid"></div>
     </section>
 
     <section>
-      <h2>Component scores</h2>
-      <div class="cards" id="components"></div>
+      <div class="section-head">
+        <div>
+          <h2>Score breakdown</h2>
+          <p class="section-copy">Weighted across availability, journeys, quality, and mobile experience.</p>
+        </div>
+      </div>
+      <div class="bars" id="components"></div>
+    </section>
+
+    <section id="attention-section" class="hidden">
+      <div class="section-head">
+        <div>
+          <h2>Needs review</h2>
+          <p class="section-copy">Highest-priority findings from the latest run.</p>
+        </div>
+      </div>
+      <div class="attention-list" id="attention-list"></div>
     </section>
 
     <section>
-      <h2>Monitored websites</h2>
-      <div class="cards" id="domains"></div>
+      <div class="section-head">
+        <div>
+          <h2>Monitored properties</h2>
+          <p class="section-copy">Domain availability and 24-hour uptime.</p>
+        </div>
+      </div>
+      <div class="domain-grid" id="domains"></div>
     </section>
 
-    <section>
-      <h2>Priority navigation</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Priority</th>
-              <th>URL</th>
-              <th>Status</th>
-              <th>Details</th>
-            </tr>
-          </thead>
-          <tbody id="links-body"></tbody>
-        </table>
+    <section class="split">
+      <div>
+        <div class="section-head">
+          <div>
+            <h2>Priority navigation</h2>
+            <p class="section-copy">Critical conversion paths and high-priority ecosystem links.</p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Priority</th>
+                <th>Destination</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="links-body"></tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <div class="section-head">
+          <div>
+            <h2>Quality signals</h2>
+            <p class="section-copy">SEO, performance, accessibility, and localization.</p>
+          </div>
+        </div>
+        <div class="quality-grid" id="quality-grid"></div>
       </div>
     </section>
 
     <section>
-      <h2>Open incidents</h2>
+      <div class="section-head">
+        <div>
+          <h2>Open incidents</h2>
+          <p class="section-copy">Deduplicated issues still awaiting resolution.</p>
+        </div>
+      </div>
       <div class="table-wrap">
         <table>
           <thead>
@@ -67,7 +119,7 @@
               <th>URL</th>
               <th>Owner</th>
               <th>Last seen</th>
-              <th>Message</th>
+              <th>Summary</th>
             </tr>
           </thead>
           <tbody id="incidents-body"></tbody>
@@ -76,7 +128,13 @@
     </section>
 
     <section>
-      <h2>Latest checks</h2>
+      <div class="section-head">
+        <div>
+          <h2>Latest checks</h2>
+          <p class="section-copy">Most recent result for every monitor.</p>
+        </div>
+        <div class="chips" id="check-filters"></div>
+      </div>
       <div class="table-wrap">
         <table>
           <thead>
@@ -96,7 +154,10 @@
 
     <section>
       <div class="section-head">
-        <h2>Executive reports</h2>
+        <div>
+          <h2>Executive reports</h2>
+          <p class="section-copy">Daily and weekly summaries for leadership review.</p>
+        </div>
         <div class="tabs">
           <button type="button" class="tab active" data-report="daily">Daily</button>
           <button type="button" class="tab" data-report="weekly">Weekly</button>
@@ -107,7 +168,10 @@
   </main>
 
   <footer>
-    Aspose.ai Website Health · static leadership snapshot
+    <div class="footer-inner">
+      <p>Aspose.ai Website Health</p>
+      <p class="muted">products.aspose.ai/total/website-health/</p>
+    </div>
   </footer>
 
   <script src="./env.js"></script>
