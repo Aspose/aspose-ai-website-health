@@ -10,14 +10,16 @@ https://aspose.github.io/aspose-ai-website-health/
 
 The option does **not** appear on the “create repository” screen. Enable it after the first push.
 
-### Option A — Settings (manual)
+### Option A — Settings (required the first time)
+
+The Actions error `Get Pages site failed` means Pages is not enabled yet. The workflow cannot start until you do this once:
 
 1. Open https://github.com/Aspose/aspose-ai-website-health
 2. **Settings** (repo menu, not your profile)
 3. Left sidebar: **Pages**
-4. **Source**: GitHub Actions  
-   or **Deploy from a branch** → `main` / `/ (root)`
-5. Save. After a minute, open the URL GitHub shows.
+4. **Build and deployment → Source**: **GitHub Actions**
+5. Save
+6. Open **Actions**, open the failed **Deploy GitHub Pages** run, click **Re-run all jobs**
 
 You need Admin or Maintain access. If you do not see **Settings**, ask an Aspose org owner.
 
