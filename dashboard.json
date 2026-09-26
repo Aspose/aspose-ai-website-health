@@ -1,0 +1,793 @@
+{
+  "generated_at": "2026-09-26T17:53:13Z",
+  "product": "Aspose.ai Website Health",
+  "overall": {
+    "score": 62.8,
+    "status": "attention",
+    "label": "Static snapshot from 2026-09-26T17:53:13Z. Not live \u2014 refreshed when we publish."
+  },
+  "components": [
+    {
+      "id": "availability",
+      "label": "Availability",
+      "score": 100.0,
+      "status": "healthy"
+    },
+    {
+      "id": "links",
+      "label": "Links",
+      "score": 100.0,
+      "status": "healthy"
+    },
+    {
+      "id": "functionality",
+      "label": "Functionality",
+      "score": 11.1,
+      "status": "attention"
+    },
+    {
+      "id": "mobile",
+      "label": "Mobile",
+      "score": 0.0,
+      "status": "attention"
+    }
+  ],
+  "severity_counts": {
+    "Critical": 0,
+    "High": 0,
+    "Medium": 8,
+    "Low": 0
+  },
+  "open_incident_count": 8,
+  "incident_count_24h": 0,
+  "domains": [
+    {
+      "name": "aspose.ai",
+      "url": "https://www.aspose.ai/",
+      "owner_team": "web-ops",
+      "uptime_24h": 100.0,
+      "latest": {
+        "check_type": "availability",
+        "monitor_name": "availability:aspose.ai",
+        "target_url": "https://www.aspose.ai/",
+        "target_domain": "www.aspose.ai",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title='File Format Agents'",
+        "detected_at": "2026-09-26T17:53:07Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "web-ops",
+        "screenshot_name": null
+      }
+    },
+    {
+      "name": "products.aspose.ai",
+      "url": "https://products.aspose.ai/",
+      "owner_team": "products",
+      "uptime_24h": 100.0,
+      "latest": {
+        "check_type": "availability",
+        "monitor_name": "availability:products.aspose.ai",
+        "target_url": "https://products.aspose.ai/",
+        "target_domain": "products.aspose.ai",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title='Free AI Agents for a Variety of File Formats'",
+        "detected_at": "2026-09-26T17:53:08Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "products",
+        "screenshot_name": null
+      }
+    },
+    {
+      "name": "purchase.aspose.ai",
+      "url": "https://purchase.aspose.ai/",
+      "owner_team": "purchase",
+      "uptime_24h": 100.0,
+      "latest": {
+        "check_type": "availability",
+        "monitor_name": "availability:purchase.aspose.ai",
+        "target_url": "https://purchase.aspose.ai/",
+        "target_domain": "purchase.aspose.ai",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title='File Format Agents'",
+        "detected_at": "2026-09-26T17:53:08Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "purchase",
+        "screenshot_name": null
+      }
+    },
+    {
+      "name": "websites.aspose.ai",
+      "url": "https://websites.aspose.ai/",
+      "owner_team": "websites",
+      "uptime_24h": 100.0,
+      "latest": {
+        "check_type": "availability",
+        "monitor_name": "availability:websites.aspose.ai",
+        "target_url": "https://websites.aspose.ai/",
+        "target_domain": "websites.aspose.ai",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title='Websites - aspose.ai'",
+        "detected_at": "2026-09-26T17:53:09Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "websites",
+        "screenshot_name": null
+      }
+    },
+    {
+      "name": "about.aspose.ai",
+      "url": "https://about.aspose.ai/",
+      "owner_team": "about",
+      "uptime_24h": 100.0,
+      "latest": {
+        "check_type": "availability",
+        "monitor_name": "availability:about.aspose.ai",
+        "target_url": "https://about.aspose.ai/",
+        "target_domain": "about.aspose.ai",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title='About Us - aspose.ai'",
+        "detected_at": "2026-09-26T17:53:10Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "about",
+        "screenshot_name": null
+      }
+    },
+    {
+      "name": "forum.aspose.ai",
+      "url": "https://forum.aspose.ai/",
+      "owner_team": "forum",
+      "uptime_24h": 100.0,
+      "latest": {
+        "check_type": "availability",
+        "monitor_name": "availability:forum.aspose.ai",
+        "target_url": "https://forum.aspose.ai/",
+        "target_domain": "forum.aspose.ai",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title='Free Support Forum - aspose.ai'",
+        "detected_at": "2026-09-26T17:53:10Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "forum",
+        "screenshot_name": null
+      }
+    },
+    {
+      "name": "blog.aspose.ai",
+      "url": "https://blog.aspose.ai/",
+      "owner_team": "blog",
+      "uptime_24h": 100.0,
+      "latest": {
+        "check_type": "availability",
+        "monitor_name": "availability:blog.aspose.ai",
+        "target_url": "https://blog.aspose.ai/",
+        "target_domain": "blog.aspose.ai",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title='Aspose AI Blog | AI Agents for Word, PDF, Excel, PowerPoint, and other popular file formats.'",
+        "detected_at": "2026-09-26T17:53:11Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "blog",
+        "screenshot_name": null
+      }
+    }
+  ],
+  "priority_links": [
+    {
+      "url": "https://products.aspose.ai/total/",
+      "severity": "Critical",
+      "reason": "Internal conversion / agent catalog",
+      "owner_team": "products",
+      "latest": {
+        "check_type": "priority_link",
+        "monitor_name": "priority-link:https://products.aspose.ai/total/",
+        "target_url": "https://products.aspose.ai/total/",
+        "target_domain": "products.aspose.ai",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title='Free AI Agents for Processing Documents'",
+        "detected_at": "2026-09-26T17:53:11Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "products",
+        "screenshot_name": null
+      }
+    },
+    {
+      "url": "https://about.aspose.ai/contact/",
+      "severity": "Critical",
+      "reason": "Internal support / contact path",
+      "owner_team": "about",
+      "latest": {
+        "check_type": "priority_link",
+        "monitor_name": "priority-link:https://about.aspose.ai/contact/",
+        "target_url": "https://about.aspose.ai/contact/",
+        "target_domain": "about.aspose.ai",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title='Contact - About - aspose.ai'",
+        "detected_at": "2026-09-26T17:53:12Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "about",
+        "screenshot_name": null
+      }
+    },
+    {
+      "url": "https://www.aspose.net/",
+      "severity": "High",
+      "reason": "External ecosystem link",
+      "owner_team": "web-ops",
+      "latest": {
+        "check_type": "priority_link",
+        "monitor_name": "priority-link:https://www.aspose.net/",
+        "target_url": "https://www.aspose.net/",
+        "target_domain": "www.aspose.net",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title=\"Aspose's File Format Plugins for .NET\"",
+        "detected_at": "2026-09-26T17:53:13Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "web-ops",
+        "screenshot_name": null
+      }
+    },
+    {
+      "url": "https://blog.aspose.ai/",
+      "severity": "High",
+      "reason": "External-style ecosystem / content destination",
+      "owner_team": "blog",
+      "latest": {
+        "check_type": "priority_link",
+        "monitor_name": "priority-link:https://blog.aspose.ai/",
+        "target_url": "https://blog.aspose.ai/",
+        "target_domain": "blog.aspose.ai",
+        "ok": true,
+        "severity": "Low",
+        "message": "Available HTTP 200 title='Aspose AI Blog | AI Agents for Word, PDF, Excel, PowerPoint, and other popular file formats.'",
+        "detected_at": "2026-09-26T17:53:13Z",
+        "http_status": 200,
+        "browser_context": null,
+        "owner_team": "blog",
+        "screenshot_name": null
+      }
+    }
+  ],
+  "latest_checks": [
+    {
+      "check_type": "availability",
+      "monitor_name": "availability:about.aspose.ai",
+      "target_url": "https://about.aspose.ai/",
+      "target_domain": "about.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title='About Us - aspose.ai'",
+      "detected_at": "2026-09-26T17:53:10Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "about",
+      "screenshot_name": null
+    },
+    {
+      "check_type": "availability",
+      "monitor_name": "availability:blog.aspose.ai",
+      "target_url": "https://blog.aspose.ai/",
+      "target_domain": "blog.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title='Aspose AI Blog | AI Agents for Word, PDF, Excel, PowerPoint, and other popular file formats.'",
+      "detected_at": "2026-09-26T17:53:11Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "blog",
+      "screenshot_name": null
+    },
+    {
+      "check_type": "availability",
+      "monitor_name": "availability:forum.aspose.ai",
+      "target_url": "https://forum.aspose.ai/",
+      "target_domain": "forum.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title='Free Support Forum - aspose.ai'",
+      "detected_at": "2026-09-26T17:53:10Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "forum",
+      "screenshot_name": null
+    },
+    {
+      "check_type": "availability",
+      "monitor_name": "availability:products.aspose.ai",
+      "target_url": "https://products.aspose.ai/",
+      "target_domain": "products.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title='Free AI Agents for a Variety of File Formats'",
+      "detected_at": "2026-09-26T17:53:08Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "products",
+      "screenshot_name": null
+    },
+    {
+      "check_type": "availability",
+      "monitor_name": "availability:purchase.aspose.ai",
+      "target_url": "https://purchase.aspose.ai/",
+      "target_domain": "purchase.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title='File Format Agents'",
+      "detected_at": "2026-09-26T17:53:08Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "purchase",
+      "screenshot_name": null
+    },
+    {
+      "check_type": "availability",
+      "monitor_name": "availability:websites.aspose.ai",
+      "target_url": "https://websites.aspose.ai/",
+      "target_domain": "websites.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title='Websites - aspose.ai'",
+      "detected_at": "2026-09-26T17:53:09Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "websites",
+      "screenshot_name": null
+    },
+    {
+      "check_type": "availability",
+      "monitor_name": "availability:aspose.ai",
+      "target_url": "https://www.aspose.ai/",
+      "target_domain": "www.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title='File Format Agents'",
+      "detected_at": "2026-09-26T17:53:07Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "web-ops",
+      "screenshot_name": null
+    },
+    {
+      "check_type": "browser_smoke",
+      "monitor_name": "smoke:desktop:https://about.aspose.ai/",
+      "target_url": "https://about.aspose.ai/",
+      "target_domain": "about.aspose.ai",
+      "ok": false,
+      "severity": "Medium",
+      "message": "1 shared chrome asset failure(s)",
+      "detected_at": "2026-09-23T03:20:50Z",
+      "http_status": 200,
+      "browser_context": "desktop",
+      "owner_team": "about",
+      "screenshot_name": "smoke-desktop-https---about-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "check_type": "browser_smoke",
+      "monitor_name": "smoke:mobile:https://about.aspose.ai/",
+      "target_url": "https://about.aspose.ai/",
+      "target_domain": "about.aspose.ai",
+      "ok": false,
+      "severity": "Medium",
+      "message": "1 shared chrome asset failure(s)",
+      "detected_at": "2026-09-23T03:21:05Z",
+      "http_status": 200,
+      "browser_context": "mobile",
+      "owner_team": "about",
+      "screenshot_name": "smoke-mobile-https---about-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "check_type": "browser_smoke",
+      "monitor_name": "smoke:desktop:https://blog.aspose.ai/",
+      "target_url": "https://blog.aspose.ai/",
+      "target_domain": "blog.aspose.ai",
+      "ok": false,
+      "severity": "Medium",
+      "message": "1 shared chrome asset failure(s)",
+      "detected_at": "2026-09-23T03:21:14Z",
+      "http_status": 200,
+      "browser_context": "desktop",
+      "owner_team": "blog",
+      "screenshot_name": "smoke-desktop-https---blog-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "check_type": "browser_smoke",
+      "monitor_name": "smoke:mobile:https://blog.aspose.ai/",
+      "target_url": "https://blog.aspose.ai/",
+      "target_domain": "blog.aspose.ai",
+      "ok": false,
+      "severity": "Medium",
+      "message": "1 shared chrome asset failure(s)",
+      "detected_at": "2026-09-23T03:21:21Z",
+      "http_status": 200,
+      "browser_context": "mobile",
+      "owner_team": "blog",
+      "screenshot_name": "smoke-mobile-https---blog-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "check_type": "browser_smoke",
+      "monitor_name": "smoke:desktop:https://products.aspose.ai/",
+      "target_url": "https://products.aspose.ai/",
+      "target_domain": "products.aspose.ai",
+      "ok": false,
+      "severity": "Medium",
+      "message": "1 shared chrome asset failure(s)",
+      "detected_at": "2026-09-23T03:20:19Z",
+      "http_status": 200,
+      "browser_context": "desktop",
+      "owner_team": "products",
+      "screenshot_name": "smoke-desktop-https---products-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "check_type": "browser_smoke",
+      "monitor_name": "smoke:mobile:https://products.aspose.ai/",
+      "target_url": "https://products.aspose.ai/",
+      "target_domain": "products.aspose.ai",
+      "ok": false,
+      "severity": "Medium",
+      "message": "1 shared chrome asset failure(s); Horizontal overflow (440px > 390px)",
+      "detected_at": "2026-09-23T03:20:33Z",
+      "http_status": 200,
+      "browser_context": "mobile",
+      "owner_team": "products",
+      "screenshot_name": "smoke-mobile-https---products-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "check_type": "browser_smoke",
+      "monitor_name": "smoke:desktop:https://www.aspose.ai/",
+      "target_url": "https://www.aspose.ai/",
+      "target_domain": "www.aspose.ai",
+      "ok": false,
+      "severity": "Medium",
+      "message": "1 shared chrome asset failure(s)",
+      "detected_at": "2026-09-23T03:19:38Z",
+      "http_status": 200,
+      "browser_context": "desktop",
+      "owner_team": "web-ops",
+      "screenshot_name": "smoke-desktop-https---www-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "check_type": "browser_smoke",
+      "monitor_name": "smoke:mobile:https://www.aspose.ai/",
+      "target_url": "https://www.aspose.ai/",
+      "target_domain": "www.aspose.ai",
+      "ok": false,
+      "severity": "Medium",
+      "message": "1 shared chrome asset failure(s)",
+      "detected_at": "2026-09-23T03:19:52Z",
+      "http_status": 200,
+      "browser_context": "mobile",
+      "owner_team": "web-ops",
+      "screenshot_name": "smoke-mobile-https---www-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "check_type": "homepage_ui",
+      "monitor_name": "homepage-ui:aspose.ai",
+      "target_url": "https://www.aspose.ai/",
+      "target_domain": "www.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Homepage header/footer and language selector look healthy",
+      "detected_at": "2026-09-23T03:17:03Z",
+      "http_status": 200,
+      "browser_context": "desktop",
+      "owner_team": "web-ops",
+      "screenshot_name": "homepage-desktop-20260923T031652Z.png"
+    },
+    {
+      "check_type": "priority_link",
+      "monitor_name": "priority-link:https://about.aspose.ai/contact/",
+      "target_url": "https://about.aspose.ai/contact/",
+      "target_domain": "about.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title='Contact - About - aspose.ai'",
+      "detected_at": "2026-09-26T17:53:12Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "about",
+      "screenshot_name": null
+    },
+    {
+      "check_type": "priority_link",
+      "monitor_name": "priority-link:https://blog.aspose.ai/",
+      "target_url": "https://blog.aspose.ai/",
+      "target_domain": "blog.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title='Aspose AI Blog | AI Agents for Word, PDF, Excel, PowerPoint, and other popular file formats.'",
+      "detected_at": "2026-09-26T17:53:13Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "blog",
+      "screenshot_name": null
+    },
+    {
+      "check_type": "priority_link",
+      "monitor_name": "priority-link:https://products.aspose.ai/total/",
+      "target_url": "https://products.aspose.ai/total/",
+      "target_domain": "products.aspose.ai",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title='Free AI Agents for Processing Documents'",
+      "detected_at": "2026-09-26T17:53:11Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "products",
+      "screenshot_name": null
+    },
+    {
+      "check_type": "priority_link",
+      "monitor_name": "priority-link:https://www.aspose.net/",
+      "target_url": "https://www.aspose.net/",
+      "target_domain": "www.aspose.net",
+      "ok": true,
+      "severity": "Low",
+      "message": "Available HTTP 200 title=\"Aspose's File Format Plugins for .NET\"",
+      "detected_at": "2026-09-26T17:53:13Z",
+      "http_status": 200,
+      "browser_context": null,
+      "owner_team": "web-ops",
+      "screenshot_name": null
+    }
+  ],
+  "open_incidents": [
+    {
+      "incident_id": "inc-a48754c8c001",
+      "severity": "Medium",
+      "detected_at_utc": "2026-09-23T03:21:21Z",
+      "last_seen_utc": "2026-09-23T03:21:21Z",
+      "monitor_name": "smoke:mobile:https://blog.aspose.ai/",
+      "check_type": "browser_smoke",
+      "target_domain": "blog.aspose.ai",
+      "target_url": "https://blog.aspose.ai/",
+      "source_page_url": "",
+      "http_status": 200,
+      "redirect_chain": [],
+      "error_signature": "browser_smoke|mobile|1 shared chrome asset failure(s)",
+      "browser_context": "mobile",
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://menucdn.containerize.com/asposeai/en.json' from origin 'https://blog.aspose.ai' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed_requests": [
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1v9173753544za200zd9173753544xf1&_p=1790133677622&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=41937831.1790133678&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=15&sr=390x844&uaa=arm&uab=64&uafvl=Not%253",
+        "net::ERR_FAILED https://menucdn.containerize.com/asposeai/en.json"
+      ],
+      "screenshot_path": "/Users/muhammadsohailismail/Documents/Aspose/GitlabRecruitizeAI/aspose-ai-agent/data/screenshots/smoke-mobile-https---blog-aspose-ai-20260923T031919Z.png",
+      "owner_team": "blog",
+      "status": "open",
+      "occurrence_count": 1,
+      "resolved_at_utc": null,
+      "screenshot_name": "smoke-mobile-https---blog-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "incident_id": "inc-5ece54dcd8c9",
+      "severity": "Medium",
+      "detected_at_utc": "2026-09-23T03:21:14Z",
+      "last_seen_utc": "2026-09-23T03:21:14Z",
+      "monitor_name": "smoke:desktop:https://blog.aspose.ai/",
+      "check_type": "browser_smoke",
+      "target_domain": "blog.aspose.ai",
+      "target_url": "https://blog.aspose.ai/",
+      "source_page_url": "",
+      "http_status": 200,
+      "redirect_chain": [],
+      "error_signature": "browser_smoke|desktop|1 shared chrome asset failure(s)",
+      "browser_context": "desktop",
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://menucdn.containerize.com/asposeai/en.json' from origin 'https://blog.aspose.ai' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed_requests": [
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1h1v9173753544za208zd9173753544xf1&_p=1790133669884&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=48590087.1790133671&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=Not%",
+        "net::ERR_FAILED https://menucdn.containerize.com/asposeai/en.json"
+      ],
+      "screenshot_path": "/Users/muhammadsohailismail/Documents/Aspose/GitlabRecruitizeAI/aspose-ai-agent/data/screenshots/smoke-desktop-https---blog-aspose-ai-20260923T031919Z.png",
+      "owner_team": "blog",
+      "status": "open",
+      "occurrence_count": 1,
+      "resolved_at_utc": null,
+      "screenshot_name": "smoke-desktop-https---blog-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "incident_id": "inc-aa48910d9ba8",
+      "severity": "Medium",
+      "detected_at_utc": "2026-09-23T03:21:05Z",
+      "last_seen_utc": "2026-09-23T03:21:05Z",
+      "monitor_name": "smoke:mobile:https://about.aspose.ai/",
+      "check_type": "browser_smoke",
+      "target_domain": "about.aspose.ai",
+      "target_url": "https://about.aspose.ai/",
+      "source_page_url": "",
+      "http_status": 200,
+      "redirect_chain": [],
+      "error_signature": "browser_smoke|mobile|1 shared chrome asset failure(s)",
+      "browser_context": "mobile",
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://menucdn.containerize.com/asposeai/en.json' from origin 'https://about.aspose.ai' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failed_requests": [
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1v9173753544za200zd9173753544xf1&_p=1790133658736&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=154001021.1790133659&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=13&sr=390x844&uaa=arm&uab=64&uafvl=Not%25",
+        "net::ERR_FAILED https://menucdn.containerize.com/asposeai/en.json",
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1v9173753544za200zd9173753544xf1&_p=1790133658736&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&_eu=AEA&ae=a&are=1&cid=154001021.1790133659&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=13&sr=390x844&uaa=arm&uab=64"
+      ],
+      "screenshot_path": "/Users/muhammadsohailismail/Documents/Aspose/GitlabRecruitizeAI/aspose-ai-agent/data/screenshots/smoke-mobile-https---about-aspose-ai-20260923T031919Z.png",
+      "owner_team": "about",
+      "status": "open",
+      "occurrence_count": 1,
+      "resolved_at_utc": null,
+      "screenshot_name": "smoke-mobile-https---about-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "incident_id": "inc-0fef5c4a2fb5",
+      "severity": "Medium",
+      "detected_at_utc": "2026-09-23T03:20:50Z",
+      "last_seen_utc": "2026-09-23T03:20:50Z",
+      "monitor_name": "smoke:desktop:https://about.aspose.ai/",
+      "check_type": "browser_smoke",
+      "target_domain": "about.aspose.ai",
+      "target_url": "https://about.aspose.ai/",
+      "source_page_url": "",
+      "http_status": 200,
+      "redirect_chain": [],
+      "error_signature": "browser_smoke|desktop|1 shared chrome asset failure(s)",
+      "browser_context": "desktop",
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://menucdn.containerize.com/asposeai/en.json' from origin 'https://about.aspose.ai' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failed_requests": [
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1v9173753544za200zd9173753544xf1&_p=1790133641307&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=884610926.1790133642&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Not%2",
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1v9173753544za200zd9173753544xf1&_p=1790133641307&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&_eu=AEA&ae=a&are=1&cid=884610926.1790133642&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=11&sr=1440x900&uaa=x86&uab=6",
+        "net::ERR_FAILED https://menucdn.containerize.com/asposeai/en.json"
+      ],
+      "screenshot_path": "/Users/muhammadsohailismail/Documents/Aspose/GitlabRecruitizeAI/aspose-ai-agent/data/screenshots/smoke-desktop-https---about-aspose-ai-20260923T031919Z.png",
+      "owner_team": "about",
+      "status": "open",
+      "occurrence_count": 1,
+      "resolved_at_utc": null,
+      "screenshot_name": "smoke-desktop-https---about-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "incident_id": "inc-6f9a09e83211",
+      "severity": "Medium",
+      "detected_at_utc": "2026-09-23T03:20:33Z",
+      "last_seen_utc": "2026-09-23T03:20:33Z",
+      "monitor_name": "smoke:mobile:https://products.aspose.ai/",
+      "check_type": "browser_smoke",
+      "target_domain": "products.aspose.ai",
+      "target_url": "https://products.aspose.ai/",
+      "source_page_url": "",
+      "http_status": 200,
+      "redirect_chain": [],
+      "error_signature": "browser_smoke|mobile|1 shared chrome asset failure(s)",
+      "browser_context": "mobile",
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://menucdn.containerize.com/asposeai/en.json' from origin 'https://products.aspose.ai' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed_requests": [
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1v9173753544za200zd9173753544xf1&_p=1790133625383&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=21988009.1790133627&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=15&sr=390x844&uaa=arm&uab=64&uafvl=Not%253",
+        "net::ERR_FAILED https://menucdn.containerize.com/asposeai/en.json"
+      ],
+      "screenshot_path": "/Users/muhammadsohailismail/Documents/Aspose/GitlabRecruitizeAI/aspose-ai-agent/data/screenshots/smoke-mobile-https---products-aspose-ai-20260923T031919Z.png",
+      "owner_team": "products",
+      "status": "open",
+      "occurrence_count": 1,
+      "resolved_at_utc": null,
+      "screenshot_name": "smoke-mobile-https---products-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "incident_id": "inc-054548e98b1f",
+      "severity": "Medium",
+      "detected_at_utc": "2026-09-23T03:20:19Z",
+      "last_seen_utc": "2026-09-23T03:20:19Z",
+      "monitor_name": "smoke:desktop:https://products.aspose.ai/",
+      "check_type": "browser_smoke",
+      "target_domain": "products.aspose.ai",
+      "target_url": "https://products.aspose.ai/",
+      "source_page_url": "",
+      "http_status": 200,
+      "redirect_chain": [],
+      "error_signature": "browser_smoke|desktop|1 shared chrome asset failure(s)",
+      "browser_context": "desktop",
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://menucdn.containerize.com/asposeai/en.json' from origin 'https://products.aspose.ai' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed_requests": [
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1v9173753544za200zd9173753544xf1&_p=1790133598000&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=2094130059.1790133602&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=Not%2",
+        "net::ERR_FAILED https://menucdn.containerize.com/asposeai/en.json",
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1v9173753544za200zd9173753544xf1&_p=1790133598000&gcs=G111&gcu=1&gcd=13r3r3r3r5l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=2094130059.1790133602&frm=0&gcut=3&ngs=1&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl="
+      ],
+      "screenshot_path": "/Users/muhammadsohailismail/Documents/Aspose/GitlabRecruitizeAI/aspose-ai-agent/data/screenshots/smoke-desktop-https---products-aspose-ai-20260923T031919Z.png",
+      "owner_team": "products",
+      "status": "open",
+      "occurrence_count": 1,
+      "resolved_at_utc": null,
+      "screenshot_name": "smoke-desktop-https---products-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "incident_id": "inc-221cf8cab07d",
+      "severity": "Medium",
+      "detected_at_utc": "2026-09-23T03:19:52Z",
+      "last_seen_utc": "2026-09-23T03:19:52Z",
+      "monitor_name": "smoke:mobile:https://www.aspose.ai/",
+      "check_type": "browser_smoke",
+      "target_domain": "www.aspose.ai",
+      "target_url": "https://www.aspose.ai/",
+      "source_page_url": "",
+      "http_status": 200,
+      "redirect_chain": [],
+      "error_signature": "browser_smoke|mobile|1 shared chrome asset failure(s)",
+      "browser_context": "mobile",
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://menucdn.containerize.com/asposeai/en.json' from origin 'https://www.aspose.ai' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed_requests": [
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1h1v9173753544z89173733018za20gzb9173733018zd9173733018xf1&_p=1790133586453&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=654285040.1790133588&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=390x844&uaa=arm&uab=64&uafvl=Not%253BA%",
+        "net::ERR_FAILED https://menucdn.containerize.com/asposeai/en.json"
+      ],
+      "screenshot_path": "/Users/muhammadsohailismail/Documents/Aspose/GitlabRecruitizeAI/aspose-ai-agent/data/screenshots/smoke-mobile-https---www-aspose-ai-20260923T031919Z.png",
+      "owner_team": "web-ops",
+      "status": "open",
+      "occurrence_count": 1,
+      "resolved_at_utc": null,
+      "screenshot_name": "smoke-mobile-https---www-aspose-ai-20260923T031919Z.png"
+    },
+    {
+      "incident_id": "inc-5a769c8c8404",
+      "severity": "Medium",
+      "detected_at_utc": "2026-09-23T03:19:38Z",
+      "last_seen_utc": "2026-09-23T03:19:38Z",
+      "monitor_name": "smoke:desktop:https://www.aspose.ai/",
+      "check_type": "browser_smoke",
+      "target_domain": "www.aspose.ai",
+      "target_url": "https://www.aspose.ai/",
+      "source_page_url": "",
+      "http_status": 200,
+      "redirect_chain": [],
+      "error_signature": "browser_smoke|desktop|1 shared chrome asset failure(s)",
+      "browser_context": "desktop",
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://menucdn.containerize.com/asposeai/en.json' from origin 'https://www.aspose.ai' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed_requests": [
+        "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-ZHJP7PJ5MD&gtm=45je69l1v9173753544z89173733018za20gzb9173733018zd9173733018xf1&_p=1790133568743&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=336379331.1790133572&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%2",
+        "net::ERR_FAILED https://menucdn.containerize.com/asposeai/en.json"
+      ],
+      "screenshot_path": "/Users/muhammadsohailismail/Documents/Aspose/GitlabRecruitizeAI/aspose-ai-agent/data/screenshots/smoke-desktop-https---www-aspose-ai-20260923T031919Z.png",
+      "owner_team": "web-ops",
+      "status": "open",
+      "occurrence_count": 1,
+      "resolved_at_utc": null,
+      "screenshot_name": "smoke-desktop-https---www-aspose-ai-20260923T031919Z.png"
+    }
+  ],
+  "reports": {
+    "daily": "# Aspose.ai Daily Health Report\n\nGenerated: 2026-09-26T17:53:13Z\nWindow: last 1 day(s) since 2026-09-25T17:53:13Z\n\n## Uptime by domain\n\n| Domain | Passing checks | Uptime |\n| --- | --- | --- |\n| about.aspose.ai | 1/1 | 100.0% |\n| blog.aspose.ai | 1/1 | 100.0% |\n| forum.aspose.ai | 1/1 | 100.0% |\n| products.aspose.ai | 1/1 | 100.0% |\n| purchase.aspose.ai | 1/1 | 100.0% |\n| websites.aspose.ai | 1/1 | 100.0% |\n| www.aspose.ai | 1/1 | 100.0% |\n\n## Incidents\n\n- New/updated in window: 0\n- Open now: 8\n- Critical: 0 (open 0)\n- High: 0 (open 0)\n- Medium: 0 (open 8)\n- Low: 0 (open 0)\n\n## Priority link health\n\n- Checks in window: 4\n- Passing: 4\n\n## Open incidents\n\n| ID | Severity | Check | URL | Status | Last seen |\n| --- | --- | --- | --- | --- | --- |\n| inc-a48754c8c001 | Medium | browser_smoke | https://blog.aspose.ai/ | open | 2026-09-23T03:21:21Z |\n| inc-5ece54dcd8c9 | Medium | browser_smoke | https://blog.aspose.ai/ | open | 2026-09-23T03:21:14Z |\n| inc-aa48910d9ba8 | Medium | browser_smoke | https://about.aspose.ai/ | open | 2026-09-23T03:21:05Z |\n| inc-0fef5c4a2fb5 | Medium | browser_smoke | https://about.aspose.ai/ | open | 2026-09-23T03:20:50Z |\n| inc-6f9a09e83211 | Medium | browser_smoke | https://products.aspose.ai/ | open | 2026-09-23T03:20:33Z |\n| inc-054548e98b1f | Medium | browser_smoke | https://products.aspose.ai/ | open | 2026-09-23T03:20:19Z |\n| inc-221cf8cab07d | Medium | browser_smoke | https://www.aspose.ai/ | open | 2026-09-23T03:19:52Z |\n| inc-5a769c8c8404 | Medium | browser_smoke | https://www.aspose.ai/ | open | 2026-09-23T03:19:38Z |\n\n## Recurring failure signatures\n\n- None\n",
+    "weekly": "# Aspose.ai Weekly Health Report\n\nGenerated: 2026-09-26T17:53:13Z\nWindow: last 7 day(s) since 2026-09-19T17:53:13Z\n\n## Uptime by domain\n\n| Domain | Passing checks | Uptime |\n| --- | --- | --- |\n| about.aspose.ai | 2/2 | 100.0% |\n| blog.aspose.ai | 2/2 | 100.0% |\n| forum.aspose.ai | 2/2 | 100.0% |\n| products.aspose.ai | 2/2 | 100.0% |\n| purchase.aspose.ai | 2/2 | 100.0% |\n| websites.aspose.ai | 2/2 | 100.0% |\n| www.aspose.ai | 2/2 | 100.0% |\n\n## Incidents\n\n- New/updated in window: 16\n- Open now: 8\n- Critical: 0 (open 0)\n- High: 8 (open 0)\n- Medium: 8 (open 8)\n- Low: 0 (open 0)\n\n## Priority link health\n\n- Checks in window: 8\n- Passing: 8\n\n## Open incidents\n\n| ID | Severity | Check | URL | Status | Last seen |\n| --- | --- | --- | --- | --- | --- |\n| inc-a48754c8c001 | Medium | browser_smoke | https://blog.aspose.ai/ | open | 2026-09-23T03:21:21Z |\n| inc-5ece54dcd8c9 | Medium | browser_smoke | https://blog.aspose.ai/ | open | 2026-09-23T03:21:14Z |\n| inc-aa48910d9ba8 | Medium | browser_smoke | https://about.aspose.ai/ | open | 2026-09-23T03:21:05Z |\n| inc-0fef5c4a2fb5 | Medium | browser_smoke | https://about.aspose.ai/ | open | 2026-09-23T03:20:50Z |\n| inc-6f9a09e83211 | Medium | browser_smoke | https://products.aspose.ai/ | open | 2026-09-23T03:20:33Z |\n| inc-054548e98b1f | Medium | browser_smoke | https://products.aspose.ai/ | open | 2026-09-23T03:20:19Z |\n| inc-221cf8cab07d | Medium | browser_smoke | https://www.aspose.ai/ | open | 2026-09-23T03:19:52Z |\n| inc-5a769c8c8404 | Medium | browser_smoke | https://www.aspose.ai/ | open | 2026-09-23T03:19:38Z |\n\n## Recurring failure signatures\n\n- `browser_smoke|mobile|1 shared chrome asset failure(s)` \u00d7 4\n- `browser_smoke|desktop|1 shared chrome asset failure(s)` \u00d7 4\n- `browser_smoke|mobile|2 failed document/script/api request(s)` \u00d7 3\n- `browser_smoke|desktop|2 failed document/script/api request(s)` \u00d7 3\n- `browser_smoke|mobile|3 failed document/script/api request(s)` \u00d7 1\n- `browser_smoke|desktop|3 failed document/script/api request(s)` \u00d7 1\n\n## Exception log\n\n- Record cadence reductions, suppressions, and known false positives here after review.\n"
+  },
+  "data_mode": "static"
+}

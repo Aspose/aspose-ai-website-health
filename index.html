@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aspose.ai Website Health</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Leadership dashboard</p>
+      <h1>Aspose.ai Website Health</h1>
+    </div>
+    <div class="topbar-meta">
+      <span id="generated-at">Loading…</span>
+      <button id="refresh-btn" type="button">Refresh</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="score-card" id="score-card">
+        <p class="muted">Overall health</p>
+        <p class="score" id="overall-score">–</p>
+        <p class="status-pill" id="overall-status">unknown</p>
+        <p id="overall-label" class="lead">Collecting the latest monitoring results.</p>
+      </div>
+      <div class="severity-grid" id="severity-grid"></div>
+    </section>
+
+    <section>
+      <h2>Component scores</h2>
+      <div class="cards" id="components"></div>
+    </section>
+
+    <section>
+      <h2>Monitored websites</h2>
+      <div class="cards" id="domains"></div>
+    </section>
+
+    <section>
+      <h2>Priority navigation</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Priority</th>
+              <th>URL</th>
+              <th>Status</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody id="links-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Open incidents</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Severity</th>
+              <th>Check</th>
+              <th>URL</th>
+              <th>Owner</th>
+              <th>Last seen</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody id="incidents-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Latest checks</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Check</th>
+              <th>Target</th>
+              <th>Context</th>
+              <th>Result</th>
+              <th>When</th>
+              <th>Evidence</th>
+            </tr>
+          </thead>
+          <tbody id="checks-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Executive reports</h2>
+        <div class="tabs">
+          <button type="button" class="tab active" data-report="daily">Daily</button>
+          <button type="button" class="tab" data-report="weekly">Weekly</button>
+        </div>
+      </div>
+      <pre id="report-body" class="report"></pre>
+    </section>
+  </main>
+
+  <footer>
+    Aspose.ai Website Health · static leadership snapshot
+  </footer>
+
+  <script src="./env.js"></script>
+  <script src="./config.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
