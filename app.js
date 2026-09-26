@@ -49,7 +49,7 @@ async function loadLive() {
 }
 
 async function loadStatic() {
-  const response = await fetch("./dashboard.json");
+  const response = await fetch(`./dashboard.json?t=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) {
     throw new Error("No static dashboard.json found. Run: aspose-agent publish-static");
   }
