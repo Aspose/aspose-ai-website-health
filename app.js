@@ -44,8 +44,7 @@ function screenshotHref(name) {
 }
 
 function render(data) {
-  const suffix = dataMode === "static" ? " (static snapshot)" : "";
-  document.getElementById("generated-at").textContent = `Updated ${data.generated_at}${suffix}`;
+  document.getElementById("generated-at").textContent = `Updated ${data.generated_at}`;
   const score = data.overall.score == null ? "–" : data.overall.score;
   document.getElementById("overall-score").textContent = score;
   const status = document.getElementById("overall-status");
